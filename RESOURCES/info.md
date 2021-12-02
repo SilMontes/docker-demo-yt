@@ -1,5 +1,6 @@
 
     Docker: 
+    
         * less memory
         * short boot-up time
         * better performance
@@ -21,6 +22,13 @@
 
     Componets of Docker:
         * Docker Client 
-        * Docker Images
-        * Docker Containers
-        * Docker Registry
+        * Docker Images : template with instructions, which is used for creating Docker Containers. It is store in a Docker Hub or in a repository (registry)
+        * Docker Containers: a stanndalone, executable software package which includes applications and their dependencies
+        * Docker Registry: a open source server-side service used for hosting and distributing images. Docker Hub is Docker default registry 
+      
+ <div align="center">
+    <img src="https://github.com/SilMontes/docker-demo-yt/blob/main/RESOURCES/DOCKER%20COMPONENTS.png" width="450" />
+     <img src="https://github.com/SilMontes/docker-demo-yt/blob/main/RESOURCES/imagesPullPush.PNG" width="400" />
+ </div>
+ 
+ 
